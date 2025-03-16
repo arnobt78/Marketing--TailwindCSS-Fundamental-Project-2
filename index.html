@@ -8,6 +8,15 @@
   </head>
   <body>
     <div id="root"></div>
+    <!-- Include the widget script from Vercel -->
+    <script src="https://widget-arnob.vercel.app/widget.umd.js"></script>
+    <script>
+      // Use the widget with a dynamic projectId
+      const root = document.getElementById("root");
+      const widgetElement = document.createElement("my-widget");
+      widgetElement.setAttribute("project-id", "4"); // Set the projectId dynamically
+      root.appendChild(widgetElement);
+    </script>
     <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>
