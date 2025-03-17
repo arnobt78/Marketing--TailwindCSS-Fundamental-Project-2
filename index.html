@@ -4,18 +4,20 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Marketing Templates</title>
+    <title>Marketing Tailwind Templates</title>
   </head>
   <body>
     <div id="root"></div>
     <!-- Include the widget script from Vercel -->
     <script src="https://widget-arnob.vercel.app/widget.umd.js"></script>
     <script>
-      // Use the widget with a dynamic projectId
-      const root = document.getElementById("root");
-      const widgetElement = document.createElement("my-widget");
-      widgetElement.setAttribute("project-id", "4"); // Set the projectId dynamically
-      root.appendChild(widgetElement);
+      // Ensure the widget is added after the main content is loaded
+      window.addEventListener("DOMContentLoaded", (event) => {
+        const root = document.getElementById("root");
+        const widgetElement = document.createElement("my-widget");
+        widgetElement.setAttribute("project-id", "4"); // Set the projectId dynamically
+        document.body.appendChild(widgetElement);
+      });
     </script>
     <script type="module" src="/src/main.jsx"></script>
   </body>
