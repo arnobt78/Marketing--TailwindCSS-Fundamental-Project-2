@@ -17,7 +17,7 @@ To install all dependencies, run this command from your project folder: `npm ins
 
 Make sure you have NodeJS installed on your machine first, The installation instructions are here: https://nodejs.org/en/
 
-Run your project: `npm run dev`
+Run on terminal: `npm run dev`
 
 Run on your browser Local: `http://localhost:5173/`
 
@@ -53,18 +53,4 @@ Then add the @tailwind directives for each of Tailwind’s layers to your ./src/
 @tailwind utilities;
 ```
 
-Run your project: `npm run dev`
-
-Run on your browser Local: `http://localhost:5173/`
-
 (For more details, visit: https://tailwindcss.com/docs/guides/vite )
-
-## React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
