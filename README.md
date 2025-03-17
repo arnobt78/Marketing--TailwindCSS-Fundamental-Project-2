@@ -1,5 +1,5 @@
 
-## Marketing-TailwindCSS-Template
+## Marketing--TailwindCSS-Fundamental-Project-2
 
 ![Screenshot 2024-09-29 at 13 38 37](https://github.com/user-attachments/assets/b2278b37-2816-4221-bf54-c67b599ae35b) ![Screenshot 2024-09-29 at 13 38 55](https://github.com/user-attachments/assets/45aebcc2-afae-4de3-9dc6-0117bc919b0e) ![Screenshot 2024-09-29 at 13 39 14](https://github.com/user-attachments/assets/3070285b-ea27-472c-a673-2cea04e7c67e) ![Screenshot 2024-09-29 at 13 39 26](https://github.com/user-attachments/assets/d0f6fe8d-6dda-4b98-a82f-56789008d355) ![Screenshot 2024-09-29 at 13 40 03](https://github.com/user-attachments/assets/70048532-506c-4e1e-9e45-670c4fe5524f)
 
@@ -7,7 +7,7 @@ Marketing-TailwindCSS-Template is a Static React-Vite Frontend Landing Page, usi
 
 **Online Live:** https://marketing-arnob.netlify.app
 
-*Note that the feedback widget is integrated from `https://github.com/arnobt78/Feedback-Widget--ReactVite`*
+*Note that the feedback widget is integrated from https://github.com/arnobt78/Feedback-Widget--ReactVite*
 
 ## To Install Dependencies
 
