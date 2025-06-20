@@ -10,15 +10,7 @@
     <div id="root"></div>
     <!-- Include the widget script from Vercel -->
     <script src="https://widget-feedback-next.vercel.app/widget.umd.js"></script>
-    <script>
-      // Ensure the widget is added after the main content is loaded
-      window.addEventListener("DOMContentLoaded", (event) => {
-        const root = document.getElementById("root");
-        const widgetElement = document.createElement("my-widget");
-        widgetElement.setAttribute("project-id", "4"); // Set the projectId dynamically
-        document.body.appendChild(widgetElement);
-      });
-    </script>
+    <my-widget></my-widget>
     <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>
