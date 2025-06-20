@@ -11,7 +11,9 @@ export default function FeedbackDashboard() {
       setError("");
       try {
         // Replace with your deployed nexx-widget API endpoint
-        const res = await fetch("https://widget-arnob.vercel.app/api/feedback");
+        const res = await fetch(
+          "https://widget-feedback-next.vercel.app/api/feedback"
+        );
         if (!res.ok) throw new Error("Failed to fetch feedbacks");
         const data = await res.json();
         setFeedbacks(data);
