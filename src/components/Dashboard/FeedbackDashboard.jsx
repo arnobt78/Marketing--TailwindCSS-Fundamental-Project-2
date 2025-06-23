@@ -24,6 +24,8 @@ export default function FeedbackDashboard() {
       }
     }
     fetchFeedbacks();
+    // Expose refresh function globally for widget to call
+    window.refreshFeedbackDashboard = fetchFeedbacks;
   }, []);
 
   return (
