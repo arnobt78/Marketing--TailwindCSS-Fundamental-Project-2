@@ -1,4 +1,4 @@
-# Marketing TailwindCSS Fundamental Project 2
+# Marketing Template - TailwindCSS Fundamental Project 2
 
 ![Screenshots](https://github.com/user-attachments/assets/b2278b37-2816-4221-bf54-c67b599ae35b)
 
